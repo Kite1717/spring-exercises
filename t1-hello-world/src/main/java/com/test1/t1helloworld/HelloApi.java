@@ -10,13 +10,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/message")
 public class HelloApi {
 
-    //message adresine bir get isteği olarak map edielim
+    //message adresine bir get isteği olarak map edelim
     // oraya gidince açılması için
 
     //yukarıdaki "/message" adrese GET yani
     // açmaya çalıştığımız da aşağıdaki method çalışsın demek
     // oluyor
-    // ve bu içerik döndürülüyor
+    // ve bu içerik döndür
     @GetMapping
     public  String  hello()
     {
