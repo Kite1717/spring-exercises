@@ -1,0 +1,3 @@
+//ayağa kaldırırken
+// hep aynı şeyi yapıcaz aşağıdaki komut
+//docker-compose -f <.yml dosyasının pathi> up -d
