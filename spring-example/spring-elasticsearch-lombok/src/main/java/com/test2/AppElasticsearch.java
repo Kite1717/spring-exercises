@@ -7,9 +7,9 @@ import org.springframework.data.elasticsearch.repository.config.EnableElasticsea
 @SpringBootApplication
 //Elasticsearch ün repository sini kullancağımız için ekledik
 @EnableElasticsearchRepositories
-public class Application {
+public class AppElasticsearch {
     public static void main(String[] args) {
-        SpringApplication.run(Application.class , args);
+        SpringApplication.run(AppElasticsearch.class , args);
 
 
     }
